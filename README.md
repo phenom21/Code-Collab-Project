@@ -2,7 +2,7 @@
 A real-time code collaboration tool that let's programming work on a common piece of code in real time.
 
 # Technologies-used
-HTML, CSS, Javascript, ReactJS, Socket.io, Codemirror.
+HTML, CSS, Javascript, ReactJS, NodeJs, ExpressJs, Socket.io, Codemirror.
 
 # Use-Cases
 Extremely useful when multiple people need to work on a common piece of code, they can do so using code collab where people can see what changes are being made to the 
