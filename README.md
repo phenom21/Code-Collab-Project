@@ -1,2 +1,3 @@
-# business-analytics
-A script to analyse the sales data of an organisation and suggest what changes in the strategy should be made.
+# code-collab
+A real-time code collaboration tool that let's programming work on a common piece of code in real time.
+
