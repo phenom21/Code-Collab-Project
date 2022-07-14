@@ -11,5 +11,5 @@ code base by other coders in real time and they themselves can make changes to t
 # How-To-Use
 Simply clone the repository, open in vscode and install all the dependencies using npm install, then simply do npm start and you will find the website on localhost:5000 in your browser.
 
-#Status
+# Status
 Completed!!
