@@ -9,4 +9,7 @@ Extremely useful when multiple people need to work on a common piece of code, th
 code base by other coders in real time and they themselves can make changes to the code too.
 
 # How-To-Use
-Simply clone the code, open in vscode and install all the dependencies using npm install and simply do npm start.
+Simply clone the repository, open in vscode and install all the dependencies using npm install, then simply do npm start and you will find the website on localhost:5000 in your browser.
+
+#Status
+Completed!!
