@@ -2,12 +2,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     height: 100vh;
 }
-
+.page2{
+    height: 100vh;
+    background-color: #132c38;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 .formWrapper {
-    background: #282a36;
+    /* background: #1b9613; */
+    background-image: url("/public/pic2.jpg");
+    background-size: cover;
     padding: 20px;
     border-radius: 10px;
     width: 400px;
@@ -31,6 +40,13 @@ footer a {
 .mainLabel {
     margin-bottom: 20px;
     margin-top: 0;
+    text-align: center;
+}
+.heading {
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+    size: 30px;
 }
 
 .homePageLogo {
@@ -61,14 +77,15 @@ footer a {
 
 .joinBtn,
 .leaveBtn {
-    background: #4aed88;
+    background: #2ac9cb;
     width: 100px;
     margin-left: auto;
+    color:white;
 }
 
 .joinBtn:hover,
 .leaveBtn:hover {
-    background: #2b824c;
+    background: #6eddb3;
 }
 
 .createInfo {
@@ -88,14 +105,20 @@ footer a:hover {
     color: #368654;
     border-color: #368654;
 }
-
+.editornav{
+    /* background-color: #2ac9cb; */
+    color: #fff;
+    text-align: center;
+    height: 12vh;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 .mainWrap {
     display: grid;
     grid-template-columns: 230px 1fr;
 }
-
 .aside {
-    background: #1c1e29;
+    background: #1b495e;
     padding: 16px;
     color: #fff;
     display: flex;
@@ -104,12 +127,17 @@ footer a:hover {
 .asideInner {
     flex: 1;
 }
-
 .clientsList {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     flex-wrap: wrap;
     gap: 20px;
+    font-size:large;
+    font-weight: lighter;
 }
 
 .client {
@@ -117,27 +145,29 @@ footer a:hover {
     align-items: center;
     flex-direction: column;
     font-weight: bold;
+    text-align: center;
 }
 .userName {
     margin-top: 10px;
 }
-
-.logo {
-    border-bottom: 1px solid #424242;
-    padding-bottom: 10px;
-}
-
-.logoImage {
-    height: 60px;
-}
-
 .leaveBtn {
     width: 100%;
     margin-top: 20px;
 }
 .CodeMirror {
-    min-height: calc(100vh - 20px);
+    min-height: 85vh;
     font-size: 20px;
     line-height: 1.6;
     padding-top: 20px;
+}
+
+.cchead{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.ssi{
+    margin-top: 0px;
+    padding-top: 0px;
 }

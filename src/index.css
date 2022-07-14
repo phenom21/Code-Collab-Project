@@ -5,5 +5,16 @@ body {
         'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #1c1e29;
+    /* background: #9bee71; */
+    background-image: url("/public/pic1.jpg");
+    background-size: cover;
 }
+.root{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.body{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
