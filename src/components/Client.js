@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Below is the client component
 
 const Client = ({ username }) => {
     return (

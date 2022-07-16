@@ -3,15 +3,20 @@ import { v4 as uuidV4 } from 'uuid';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-    const navigate = useNavigate();
-
     const [roomId, setRoomId] = useState('');
     const [username, setUsername] = useState('');
-    const createNewRoom = (e) => {
-        e.preventDefault();
-        const id = uuidV4();
-        setRoomId(id);
+    const navigate = useNavigate();
+
+    // Below is for handling input errors
+
+    const handleInputEnter = (e) => {
+        if (e.code === 'Enter') {
+            joinRoom();
+        }
     };
+
+
+    // Below is for joining an existing session
 
     const joinRoom = () => {
         if (!roomId || !username) {
@@ -27,12 +32,19 @@ const Home = () => {
         });
     };
 
-    const handleInputEnter = (e) => {
-        if (e.code === 'Enter') {
-            joinRoom();
-        }
+    // Below is for creating a new session
+
+    const createNewRoom = (e) => {
+        e.preventDefault();
+        const id = uuidV4();
+        setRoomId(id);
     };
+
+    
+
+   
     return (
+        <>
         <div className="homePageWrapper">
             <div className="formWrapper">
                 <h1 className="heading">Code Collab</h1>
@@ -70,6 +82,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

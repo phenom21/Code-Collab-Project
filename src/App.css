@@ -5,6 +5,14 @@
     color: rgb(255, 255, 255);
     height: 100vh;
 }
+.editornav{
+    /* background-color: #2ac9cb; */
+    color: #fff;
+    text-align: center;
+    height: 12vh;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 .page2{
     height: 100vh;
     background-color: #132c38;
@@ -105,14 +113,7 @@ footer a:hover {
     color: #368654;
     border-color: #368654;
 }
-.editornav{
-    /* background-color: #2ac9cb; */
-    color: #fff;
-    text-align: center;
-    height: 12vh;
-    margin-top: 0px;
-    padding-top: 0px;
-}
+
 .mainWrap {
     display: grid;
     grid-template-columns: 230px 1fr;
